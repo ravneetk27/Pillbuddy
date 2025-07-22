@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-goldman: Goldman;
+  --font-happy-monkey: "Happy Monkey";
+  --font-graduate: Graduate;
+  --font-hanuman: Hanuman;
+
+  /* font sizes */
+  --font-size-17xl: 2.25rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-6xl: 1.56rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+}

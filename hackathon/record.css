@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.boxo {
+  color: black;
+  text-decoration: none;
+  font-size: 37px;
+  text-align: center;
+  font-family: "Goldman",bold;
+  text-decoration: none;
+
+
+}
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #1abc9c;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  animation: titleAnimation 2s ease-in-out infinite;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.text-yolo{
+  font-size: 25px;
+  color: white;
+  font-family: "Goldman",regular;
+  
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#medicine-form {
+  margin-bottom: 150px;
+  animation: formAnimation 1s ease-in-out;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+@keyframes formAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.outlay{
+  background-color: #1abc9c;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 420px;
+  width: 600px;
+  height: 510px;
+  margin-top: 20px;
+  border-radius:25px ;
+  
+}
+#medicines{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input {
+  padding: 0.6rem 2.3rem;
+  background-color: #1abc9c;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: white;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  
+}
+
+#medicine-list {
+  text-align: center;
+  animation: listAnimation 1s ease-in-out;
+}
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+}
+
+
+@keyframes listAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#medicine-list h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#medicines {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#medicines li {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 5px;
+  animation: listItemAnimation 1s ease-in-out; 
+}
+
+@keyframes listItemAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

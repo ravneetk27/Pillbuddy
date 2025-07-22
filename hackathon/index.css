@@ -1,0 +1,428 @@
+.about {
+  position: absolute;
+  top: 2.13rem;
+  left: 38.25rem;
+  text-align: left;
+  display: inline-block;
+  width: 16.31rem;
+  color:black;
+  text-decoration: none;
+}
+
+@keyframes fade-down{
+  0%{opacity: 0;
+  transform: translateY(-30px) scale(0.9);
+}
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-up{
+  0%{opacity: 0;
+  transform: translateY(30px) scale(0.9);
+}
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-upper{
+  0%{opacity: 0;
+  transform: translateY(0px) scale(0.9);
+}
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.nav{
+  animation: fade-down 2s;
+}
+.tito{
+  animation: fade-down 1s;
+}
+.tit{
+  animation: fade-down 1s;
+}
+.phone{
+  animation: fade-upper 3s;
+}
+.reminder {
+  top: 2.13rem;
+  left: 46.44rem;
+  color:black;
+  text-decoration: none;
+}
+
+
+.contact,
+.pill-buddy,
+.reminder {
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+  width: 16.31rem;
+}
+
+.contact {
+  top: 1.75rem;
+  left: 77.25rem;
+  font-size: 2.19rem;
+  color:black;
+  text-decoration: none;
+}
+
+.pill-buddy {
+  top: 1.69rem;
+  left: 3.56rem;
+  font-size: var(--font-size-17xl);
+  color:black;
+  text-decoration: none;
+}
+
+.icon {
+  position: absolute;
+  top: 28.5rem;
+  left: 42.63rem;
+  width: 47.38rem;
+  height: 15.89rem;
+  object-fit: cover;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon,
+.icon1 {
+  position: absolute;
+  top: 26.38rem;
+  left: 0;
+  width: 49.71rem;
+  height: 40.63rem;
+  object-fit: cover;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon {
+  top: 23.06rem;
+  width: 27.06rem;
+  height: 24.98rem;
+}
+
+.bg2-1-icon {
+  position: absolute;
+  top: 24.94rem;
+  left: 16.81rem;
+  width: 56.56rem;
+  height: 55.75rem;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.pill-buddy1,
+.this-website-is {
+  position: absolute;
+  top: 16rem;
+  left: 32.63rem;
+  font-size: 4rem;
+  display: inline-block;
+  width: 23.69rem;
+  height: 5.63rem;
+}
+
+.this-website-is {
+  top: 20.25rem;
+  left: 24.5rem;
+  font-size: 1.5rem;
+  width: 40rem;
+  opacity: 0.6;
+}
+
+.desktop-8-child {
+  position: absolute;
+  top: 23.06rem;
+  left: 40.38rem;
+  border-radius: 10px;
+  background-color: #1abc9c;
+  width: 9.31rem;
+  height: 3.31rem;
+}
+
+.contact1 {
+  position: absolute;
+  top: 23.75rem;
+  left: 33rem;
+  font-size: 1.25rem;
+  font-family: var(--font-hanuman);
+  color: var(--color-white);
+  display: inline-block;
+  width: 23.94rem;
+  height: 7.19rem;
+  color:white;
+  text-decoration: none;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon1 {
+  position: absolute;
+  top: 22.44rem;
+  left: 66.63rem;
+  width: 23.38rem;
+  height: 16.94rem;
+  object-fit: cover;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon2 {
+  position: absolute;
+  top: 42.75rem;
+  left: 58.81rem;
+  width: 25.14rem;
+  height: 28.31rem;
+  object-fit: cover;
+}
+
+.iphone-13-pro,
+.iphone-15-icon,
+.iphone-15-icon1 {
+  position: absolute;
+  top: 29.44rem;
+  left: 0.75rem;
+  width: 52.63rem;
+  height: 48.31rem;
+  object-fit: cover;
+}
+
+.iphone-13-pro,
+.iphone-15-icon1 {
+  top: 29.75rem;
+  left: 41.56rem;
+  width: 45.94rem;
+  height: 44.81rem;
+}
+
+.iphone-13-pro {
+  top: 29rem;
+  left: 24.5rem;
+  width: 31.75rem;
+  height: 52.25rem;
+}
+
+.desktop-8-item {
+  position: absolute;
+  top: 63.13rem;
+  left: -15.25rem;
+  background-color: var(--color-black);
+  width: 123.31rem;
+  height: 65.69rem;
+}
+
+.introduction,
+.pill-buddy2 {
+  position: absolute;
+  display: inline-block;
+}
+
+.introduction {
+  top: 85.19rem;
+  left: 33.06rem;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-hanuman);
+  color: var(--color-white);
+  width: 23.88rem;
+  height: 3.63rem;
+}
+
+.pill-buddy2 {
+  top: 88.81rem;
+  left: 19.38rem;
+  font-size: 8rem;
+  background: linear-gradient(rgba(242, 210, 172, 0.89),
+      rgba(242, 210, 172, 0.89)),
+    #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 54.13rem;
+  height: 10.81rem;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon3,
+.icon2,
+.icon3 {
+  position: absolute;
+  top: 90.31rem;
+  left: 38.69rem;
+  width: 51.31rem;
+  height: 15.89rem;
+  object-fit: cover;
+  opacity: 0.5;
+  mix-blend-mode: luminosity;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon3,
+.icon3 {
+  top: 82rem;
+  left: 10.38rem;
+  width: 56.64rem;
+  height: 40.63rem;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon3 {
+  top: 73.5rem;
+  left: 56.31rem;
+  width: 23.38rem;
+  height: 16.94rem;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon4 {
+  position: absolute;
+  top: 78.75rem;
+  left: 0;
+  width: 28.24rem;
+  height: 24.98rem;
+  object-fit: cover;
+  opacity: 0.5;
+  mix-blend-mode: luminosity;
+}
+
+.brett-jordan-efptyvfmxy-unspl-icon5 {
+  position: absolute;
+  top: 99.25rem;
+  left: 50.19rem;
+  width: 25.14rem;
+  height: 28.31rem;
+  object-fit: cover;
+  opacity: 0.5;
+  mix-blend-mode: luminosity;
+}
+
+.desktop-8-inner,
+.polygon-icon {
+  position: absolute;
+  top: 86.62rem;
+  left: 22.19rem;
+  width: 2.78rem;
+  height: 3.01rem;
+  opacity: 0.4;
+  mix-blend-mode: luminosity;
+}
+
+.polygon-icon {
+  top: 72.62rem;
+  left: 15.51rem;
+}
+
+.desktop-8-child1,
+.desktop-8-child2,
+.desktop-8-child3,
+.desktop-8-child4 {
+  position: absolute;
+  top: 84.91rem;
+  left: 80.71rem;
+  width: 3.23rem;
+  height: 2.71rem;
+  opacity: 0.4;
+  mix-blend-mode: luminosity;
+}
+
+.desktop-8-child2,
+.desktop-8-child3,
+.desktop-8-child4 {
+  top: 75.27rem;
+  left: 59.86rem;
+  width: 3.53rem;
+  height: 2.41rem;
+}
+
+.desktop-8-child3,
+.desktop-8-child4 {
+  top: 109.54rem;
+  left: 12.82rem;
+  width: 2.69rem;
+  height: 3.26rem;
+}
+
+.desktop-8-child4 {
+  top: 96.37rem;
+  left: 66.88rem;
+  width: 2.78rem;
+  height: 3.01rem;
+}
+
+.desktop-8-child5,
+.desktop-8-child6,
+.ellipse-div {
+  position: absolute;
+  top: 68.75rem;
+  left: 28.25rem;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 3.56rem;
+  height: 3.25rem;
+  opacity: 0.3;
+}
+
+.desktop-8-child5,
+.desktop-8-child6 {
+  top: 91rem;
+  left: 82.69rem;
+}
+
+.desktop-8-child6 {
+  top: 119.31rem;
+  left: 6.13rem;
+}
+
+.this-website {
+  margin: 0px;
+  padding: 10px;
+
+}
+
+.this-website-empowers-container {
+  position: absolute;
+  top: 8.69rem;
+  left: 0;
+
+  display: inline-block;
+  width: 69.75rem;
+  height: 41.06rem;
+}
+
+.context {
+  position: absolute;
+  top: 0;
+  left: 15.13rem;
+  font-size: 4.38rem;
+  font-family: var(--font-happy-monkey);
+  display: inline-block;
+  width: 37.5rem;
+  height: 8.69rem;
+}
+
+.this-website-empowers-you-with-parent {
+  position: absolute;
+  top: 137.75rem;
+  left: 10.13rem;
+  width: 69.75rem;
+  height: 49.75rem;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-graduate);
+}
+
+.group-tango-charlie-ayush-container {
+  position: absolute;
+  top: 183.25rem;
+  left: 4.25rem;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 82.13rem;
+  height: 8.31rem;
+}
+
+.desktop-8 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 197.13rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-goldman);
+}

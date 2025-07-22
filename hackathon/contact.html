@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+    />
+  
+</head>
+
+<body>
+  <a href="index.html" class="aj">PillBuddy</a>
+  <div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          this is to report any BUG to us which we can fix..
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <img src="img/location.png" class="icon" alt="" />
+            <p>GURU NANAK DEV UNIVERSITY</p>
+          </div>
+          <div class="information">
+            <img src="img/email.png" class="icon" alt="" />
+            <p>pillbuddy09@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="img/phone.png" class="icon" alt="" />
+            <p>123-456-789</p>
+          </div>
+        </div>
+
+        
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form id="contact-form" action="#" autocomplete="off">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" id="name" name="name" class="input" />
+            <label for="name">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" id="email" name="email" class="input" />
+            <label for="email">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="text" id="subject" name="subject" class="input" />
+            <label for="subject">Subject</label>
+            <span>Subject</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea id="message" name="message" class="input"></textarea>
+            <label for="message">Message</label>
+            <span>Message</span>
+          </div>
+          <button type="submit" class="btn">Send Email</button>
+        </form>
+        <script src="app.js"></script>
+        <script>
+          document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            sendEmail();
+          });
+        
+          function sendEmail() {
+        var recipient = "pillbuddy09@gmail.com";
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+
+        var mailtoLink = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + "Senders name: " + encodeURIComponent(name) + "%0D%0ABy: " + encodeURIComponent(email) + "%0D%0A" + encodeURIComponent(message);
+
+        window.location.href = mailtoLink;
+          }
+
+        </script>
+
+</body>
+
+</html>

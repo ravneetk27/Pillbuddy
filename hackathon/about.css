@@ -1,0 +1,88 @@
+*{
+    z-index: 1;
+}
+.about {
+    position: absolute;
+    top: 2.13rem;
+    left: 38.25rem;
+    text-align: left;
+    display: inline-block;
+    width: 16.31rem;
+    color: black;
+    text-decoration: none;
+    font-family: "Goldman",regular;
+}
+.contact,
+.pill-buddy,
+.reminder {
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    width: 16.31rem;
+    
+}
+.reminder,.about{
+    padding-top: 15px;
+}
+.contact {
+  top: 1.75rem;
+  left: 77.25rem;
+  font-size: 2.19rem;
+  color:black;
+  text-decoration: none;
+  font-family: "Goldman",regular;
+}
+.about-us-head{
+    display: flex;
+    font-family: "Goldman",regular;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    font-size: 40px;
+    
+}
+
+
+.getstart{
+    display: flex;
+    font-family: "Hanuman",regular;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.mid{
+    display: flex;
+    font-family: "Hanuman",regular;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.down{
+    display: flex;
+    font-family: "Hanuman",regular;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.pill-buddy {
+    top: 1.69rem;
+    left: 3.56rem;
+    font-size: 35px;
+    color:black;
+    text-decoration: none;
+    font-family: "Goldman",regular;
+    
+  }
+.reminder {
+    top: 2.13rem;
+    left: 46.44rem;
+    color: black;
+    text-decoration: none;
+    font-family: "Goldman",regular;
+}

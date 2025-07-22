@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Medicine Reminder</title>
+  <link rel="stylesheet" type="text/css" href="record.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" />
+</head>
+
+<body>
+  <a href="index.html" class="boxo">PillBuddy</a>
+
+  <div class="outlay">
+    <div id="medicine-form">
+      <div>
+        <label id="namepp" class="text-yolo" for="medicine-name">Medicine Name:</label>
+      </div>
+      <div aria-placeholder="Medicine" class="input-container">
+        <input itemid="namepp" class="input" type="text" id="medicine-name">
+      </div>
+      <div>
+        <label for="medicine-dose" class="text-yolo">Dose:</label>
+      </div>
+      <div aria-placeholder="Dose" class="input-container">
+        <input class="input" type="text" id="medicine-dose">
+      </div>
+      <div>
+        <label for="medicine-time" class="text-yolo">Time:</label>
+      </div>
+      <div aria-placeholder="Time" class="input-container">
+        <input class="input" type="time" id="medicine-time">
+      </div>
+      <div>
+        <label class="text-yolo" for="medicine-frequency">Reminder Frequency (times per day):</label>
+        <input type="number" id="medicine-frequency" class="input" min="1" max="2" value="1">
+
+      </div>
+      <div>
+        <button class="btn" onclick="addMedicine()">Add Medicine</button>
+      </div>
+
+    </div>
+  </div>
+  <h2 class="listo">Medicine List</h2>
+  <ul id="medicines"></ul>
+  <script src="record.js"></script>
+</body>
+
+</html>
